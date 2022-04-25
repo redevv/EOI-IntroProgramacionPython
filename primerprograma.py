@@ -1,4 +1,3 @@
-# coding=<encoding name>
 # Comentarios
 # Este es un primer programa en Python
 
