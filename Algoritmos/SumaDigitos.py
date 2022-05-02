@@ -8,5 +8,4 @@ while(nro!=0):
     resul=resul+(nro%10)
     nro=nro//10
 # Fin while
-print("El resultado es: ",resul)
-
+print(f"El resultado es: {resul}")
