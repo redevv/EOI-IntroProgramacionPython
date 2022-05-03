@@ -14,6 +14,6 @@ try:
         print(Num1*Num2)
     else:
         print(Num1/Num2)
-except ZeroDivisionError:
-    print("Error al dividir por cero")
+except ZeroDivisionError: # Errores personalizados tienen prioridad y han de ponerse primero.
+    print("Error al dividir por cero") 
 # Fin Algoritmo

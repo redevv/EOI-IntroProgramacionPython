@@ -1,17 +1,16 @@
-# 10. Adivinar una palabra (TERMINAR)
+# 10. Adivinar una palabra (CORREGIR Y TERMINAR)
 
 palabra="Algoritmo"
-# R=input()
-estado=False
+print("Adivina la palabra (N para Salir): ")
 try:
-    while (estado==False):
-        palabraintro=input("Escriba una palabra: ")
+    while True:
+        palabraintro=input().lower() # .lower() facilita poner mayúsculas o minúsuculas.
         if (palabraintro==palabra):
-            estado=True
-        else:
-            print("Volver a intentar(Sí/No)")
-    # Fin while   
+            break
+        elif (palabraintro=="N"):
+            break
+        print("Volver a intentar (N para Salir): ")
     print("¡Enhorabuena! La palabra es correcta.")
 except ValueError:
-    print("Por favor, introduzca sólo letras")
+    print("Por favor, introduzca sólo valores alfanuméricos")
 # Fin Algoritmo

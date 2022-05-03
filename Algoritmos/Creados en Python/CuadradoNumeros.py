@@ -7,3 +7,7 @@ while (Num1<=Num2):
     Num1+=1
 # Fin while
 # Fin Algoritmo
+
+# Forma más eficiente:
+# for número in range(1,31)
+# print(f"El cuadrado de {numero} es: {numero*numero}")
