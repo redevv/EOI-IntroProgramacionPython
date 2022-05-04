@@ -1,4 +1,4 @@
-# 10. Adivinar una palabra (CORREGIR Y TERMINAR)
+# 10. Adivinar una palabra (CORREGIR Y TERMINAR) - Ver GitHub Cristina Silván
 
 palabra="Algoritmo"
 print("Adivina la palabra (N para Salir): ")

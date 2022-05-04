@@ -1,4 +1,4 @@
-# 8. Factorial de cualquier número -> PENDIENTE
+# 8. Factorial de cualquier número -> CORREGIR (Ver GitHub Antonio Daza)
 
 nro=input("Ingrese número: ")
 m=2
