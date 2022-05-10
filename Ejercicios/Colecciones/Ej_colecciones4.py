@@ -10,10 +10,10 @@ for ciudad in NombresCiudades:
         dict={ciudad:temperaturas}
         print(dict)
 
-promedio_tempmayor=0
+promedios_temperaturas=[]
+
+promedios_temperaturas.sort()
+
 
 #print("La ciudad con mayor temperatura promedio es:",promedio_tempmayor)
-
-promedio_tempmenor=0
-
 #print("La ciudad con menor temperatura promedio es:",promedio_tempmenor)
