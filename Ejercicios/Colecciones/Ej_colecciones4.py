@@ -12,6 +12,8 @@ for ciudad in NombresCiudades:
         print(dict)
 
 promedios_temperaturas=[]
+promedio_tempmayor=0
+promedio_tempmenor=0
 
 promedios_temperaturas.sort()
 
