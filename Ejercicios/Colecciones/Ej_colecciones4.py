@@ -1,7 +1,6 @@
 # Ejercicio Colecciones 4
 
 from random import randint
-from statistics import mean
 
 NombresCiudades={"Lugo", "Pontevedra", "Gijón", "Santander", "Bilbao", "Álava", "Pamplona", "Tarragona", "Barcelona", "Castellón", "Alicante","Murcia","Albacete", "Cuenca", "Toledo", "Madrid", "Segovia", "Salamanca", "Burgos", "León"}
 
