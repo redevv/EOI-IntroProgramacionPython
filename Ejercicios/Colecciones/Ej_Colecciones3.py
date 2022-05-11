@@ -26,9 +26,9 @@ hombres_menoresedad=len([n for n in hombres if n<18])
 print("El nº de hombres menores de edad es:",hombres_menoresedad)
 
 edadmenor_mujer=min(mujeres)
-print(f"La(s) mujer(es) con menor edad tiene(n) {edadmenor_mujer} años")
+print(f"La(s) mujer(es) con menor edad tiene(n) {edadmenor_mujer} año(s)")
 edadmenor_hombre=min(hombres)
-print(f"Los hombres con menor edad tienen {edadmenor_hombre} años")
+print(f"Los hombres con menor edad tienen {edadmenor_hombre} año(s)")
 
 edadmayor_mujer=max(mujeres)
 print(f"La(s) mujer(es) con mayor edad tiene(n) {edadmayor_mujer} años")
