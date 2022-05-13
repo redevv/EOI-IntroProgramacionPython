@@ -1,0 +1,5 @@
+fichero = open("ficheroprueba.rtf","rt",encoding="UTF-8")
+contenido = fichero.read()
+print(contenido)
+fichero.close()
+print("Ficheruco cerrado")
