@@ -17,8 +17,9 @@ for ciudad in ListaCiudades: # Recorremos la lista de ciudades
 DiccPromedioAnual={} 
 for clave,valor in dicc.items(): # Recorremos el diccionario y la función "items" nos devuelve tuplas con los valores 
     print(f'{clave} -> {valor}') # Mostramos en pantalla los nombres de la ciudad junto a la lista de temperatura de todo el año
-    tuplatemperaturas = tuple(valor) # Creamos una tupla con los valores del diccionario
-    MediaAnuales = (round(sum(tuplatemperaturas)/12 ,2)) # Hacemos una media de las temperaturas anuales de cada ciudad
+    #tuplatemperaturas = tuple(valor) # Creamos una tupla con los valores del diccionario
+    #MediaAnuales = (round(sum(tuplatemperaturas)/12 ,2)) # Hacemos una media de las temperaturas anuales de cada ciudad
+    MediaAnuales = (round(sum(valor)/12,2)) # Hacemos una media de las temperaturas anuales de cada ciudad
     DiccPromedioAnual[clave] = MediaAnuales # Creamos un nuevo diccionario con la ciudad y la temperatura media anual.
 
 MaxProAnual = max(DiccPromedioAnual.values()) # Almacenamos el valor maximo del promedio anual
