@@ -17,7 +17,7 @@ def lee_o_crea_fichero_desde_coleccion(file_nombre,lista_datos):
         fichero.close()
 
 print(f"Ejecución {__name__}")
-if __name__ == '__main__': # Con este comando hacemos que sólo se ejecute la función de arriba en otro programa para evitar duplcaciones
+if __name__ == '__main__': # Con este comando hacemos que sólo se ejecute la función de arriba en otro programa para evitar duplicaciones
     personas=[]
     for n in range(1,101):
         personas.append(randint(0,125))
@@ -29,6 +29,3 @@ if __name__ == '__main__': # Con este comando hacemos que sólo se ejecute la fu
 
     lee_o_crea_fichero_desde_coleccion(file,personas)
     lee_o_crea_fichero_desde_coleccion(file1,personas1)
-
-
-
