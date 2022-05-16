@@ -1,0 +1,1 @@
+<_io.TextIOWrapper name='Ejercicios/Ficheros/ficheroprueba.txt' mode='wt' encoding='UTF-8'>Prueba fichero fachero
